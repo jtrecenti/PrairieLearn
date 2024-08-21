@@ -254,7 +254,7 @@ jobs:
         run: docker tag jtrecenti/prairielearn:${{ env.COMMIT_SHA }} jtrecenti/prairielearn:latest
 
       - name: Build executor image
-        run: docker build ./images/executor --tag prairielearn/executor:${{ env.COMMIT_SHA }}
+        run: docker build ./images/executor --tag jtrecenti/executor:${{ env.COMMIT_SHA }}
       - name: Tag executor image as latest
         run: docker tag jtrecenti/executor:${{ env.COMMIT_SHA }} jtrecenti/executor:latest
 
