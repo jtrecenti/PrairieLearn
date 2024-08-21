@@ -137,7 +137,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           no-cache: true
-          tags: prairielearn/workspace-jupyterlab:latest,prairielearn/workspace-jupyterlab:${{ github.sha }}
+          tags: jtrecenti/cdad2-workspace:latest,jtrecenti/cdad2-workspace:${{ github.sha }}
 
       ######################################################################################################
       # workspace-jupyterlab-python
