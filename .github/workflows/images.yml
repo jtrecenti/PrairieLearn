@@ -137,7 +137,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           no-cache: true
-          tags: jtrecenti/cdad2-workspace:latest,jtrecenti/cdad2-workspace:${{ github.sha }}
+          tags: jtrecenti/workspace-jupyterlab-python:latest,jtrecenti/workspace-jupyterlab-python:${{ github.sha }}
 
       ######################################################################################################
       # workspace-jupyterlab-python
@@ -151,7 +151,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           no-cache: true
-          tags: jtrecenti/cdad2-workspace:latest,jtrecenti/cdad2-workspace:${{ github.sha }}
+          tags: jtrecenti/workspace-jupyterlab-python:latest,jtrecenti/workspace-jupyterlab-python:${{ github.sha }}
 
       ######################################################################################################
       # workspace-rstudio
