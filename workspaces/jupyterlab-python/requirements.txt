@@ -30,4 +30,3 @@ typing-extensions==4.12.2
 statsmodels==0.14.2
 openai==1.42.0
 pydantic==2.8.2
-tiktoken==0.7.0
